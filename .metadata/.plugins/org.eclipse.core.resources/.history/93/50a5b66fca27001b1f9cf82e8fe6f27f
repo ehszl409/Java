@@ -1,0 +1,11 @@
+package star1;
+
+public class Marine {
+	// field, property 는 private로 만들어 마법을 제한 한다.
+	private String name;
+	
+	public Marine() {
+		
+	}
+
+}

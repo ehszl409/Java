@@ -1,0 +1,30 @@
+package ch04;
+
+public class Person {
+	String name;
+	String jop;
+	int age;
+	char gender;
+	String blood;
+	
+	// 초기화를 위한 생성자 
+	public Person(String n, String j, int a, char g, String b) {
+		
+		// Heap에 담아 옮기는 중 
+		name = n;
+		jop = j;
+		age = a;
+		gender = g;
+		blood = b;
+	}
+	
+	void preview() {
+		System.out.println("사람이 태어남");
+		System.out.println("=====" + name + "=====");
+		System.out.println("직업" + jop);
+		System.out.println("나이" + age);
+		System.out.println("성별" + gender);
+		System.out.println("혈액형" + blood);
+		System.out.println(); // 내려쓰기
+	}
+}

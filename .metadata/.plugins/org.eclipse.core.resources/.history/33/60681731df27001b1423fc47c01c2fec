@@ -1,0 +1,18 @@
+package ex01;
+
+
+class Test{
+	int f(int a, int b) {
+		return a + b;
+	}
+}
+public class Ex04 {
+
+	public static void main(String[] args) {
+		Test t = new Test();
+		int sum = t.f(2,4);
+		
+
+	}
+
+}

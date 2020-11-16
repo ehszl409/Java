@@ -1,0 +1,48 @@
+package star1;
+
+public class Star1App {
+
+	// Zealot -> Dragoon
+	static void attack(Zealot u1, Dragoon u2) {
+		System.out.println(u1.name + " -> " + u2.name + " Attack");
+		u2.hp = u2.hp - u1.attack; // hp : 90
+		System.out.println(u2.name + " hp : " + u2.hp);
+
+	}
+
+	// Dragoon -> Zealot
+	static void attack2(Dragoon u1, Zealot u2) {
+		System.out.println(u1.name + " -> " + u2.name + " Attack");
+		u2.hp = u2.hp - u1.attack; // hp : 90
+		System.out.println(u2.name + " hp : " + u2.hp);
+
+	}
+	
+	// Dragoon -> Zealot
+	static void attack3(Dragoon u1, Dragoon u2) {
+		System.out.println(u1.name + " -> " + u2.name + " Attack");
+		u2.hp = u2.hp - u1.attack; // hp : 90
+		System.out.println(u2.name + " hp : " + u2.hp);
+
+	}
+	
+
+	public static void main(String[] args) {
+		Zealot z1 = new Zealot("Zealot1", 100, 10); // z1은 지역 변수 이다
+		Dragoon d1 = new Dragoon("Dragoon1", 100, 20);
+		Dragoon d2 = new Dragoon("Dragoon2", 100, 20);
+
+		// 1. Zealot1 -> Dragoon1
+		attack(z1, d1);
+		System.out.println();
+
+		// 2. Dragoon1 -> Zealot1
+		attack2(d1, z1);
+		System.out.println();
+
+		// 3. Dragoon1 -> Dragoon2
+		attack3(d1, d2);
+		System.out.println();
+	}
+
+}

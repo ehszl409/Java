@@ -1,0 +1,22 @@
+package star1;
+
+public class Star1App {
+	
+	// Zealot -> Dragoon
+	static void attack(Zealot u1, Dragoon u2) {
+		u2.hp = u2.hp - u1.attack; // hp : 90
+		
+	}
+
+	public static void main(String[] args) {
+		Zealot z1 = new Zealot("Zealot1", 100, 10);
+		Dragoon d1 = new Dragoon("Dragoon1", 100, 20);
+		
+		// 1. Zealot -> Dragoon
+		attack(z1, d1);
+		System.out.println(d1.hp);
+		System.out.println();
+
+	}
+
+}

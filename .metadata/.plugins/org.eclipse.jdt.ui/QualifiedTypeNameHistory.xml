@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="ch04.Method01"/>
+    <fullyQualifiedTypeName name="ch04.Dog"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="ex01.StaticSample"/>
+    <fullyQualifiedTypeName name="ex01.Ex04.Test"/>
+    <fullyQualifiedTypeName name="ex01.TV"/>
+    <fullyQualifiedTypeName name="ex01.Song"/>
+    <fullyQualifiedTypeName name="ex01.Rectangle"/>
+</qualifiedTypeNameHistroy>

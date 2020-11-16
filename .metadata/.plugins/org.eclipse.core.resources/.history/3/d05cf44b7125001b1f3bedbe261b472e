@@ -1,0 +1,21 @@
+package ch04;
+
+// 자바 특ㅇ
+
+public class Method01 {
+	
+	static void add() {
+		System.out.println("add함수 호출됨");
+	}
+	
+	static void soind() {
+		System.out.println("sound함수 호출됨");
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Method01.add();
+	}
+
+}

@@ -1,0 +1,12 @@
+package star1;
+
+public class Star2App {
+
+	public static void main(String[] args) {
+		Marine m = new Marine();
+		
+		Dregoon d = new Dragoon();
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package ch02;
+
+public class var02 {
+
+	public static void main(String[] args) {
+		// code 부분
+		int num = 10; //4byte - 32bit - 42억 9천(-20억 ~ +20억)
+		long num2 =100; //8Byte 경 까지 저장 
+		
+		char s = '가'; //2Byte (중국어 저장 못함)
+		
+		double b = 7.5;//8Btye 42억 9천(-20억 ~ +20억 추가로 소수점 이하까지 가능)
+		boolean d = true; //1bit
+		// end of main
+
+	}
+
+}

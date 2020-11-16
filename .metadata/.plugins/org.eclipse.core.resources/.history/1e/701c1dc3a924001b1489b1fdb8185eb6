@@ -1,0 +1,14 @@
+package ch02;
+
+public class var02 {
+
+	public static void main(String[] args) {
+		// code 부분
+		int num = 10; //4byte - 32bit - 42억 9천(-20억 ~ +20억)
+		long num2 =100; // 8Byte 
+		
+		// end of main
+
+	}
+
+}

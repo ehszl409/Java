@@ -1,0 +1,10 @@
+package star1;
+
+public class Star1App {
+
+	public static void main(String[] args) {
+		Zealot z1 = new Zealot();
+
+	}
+
+}

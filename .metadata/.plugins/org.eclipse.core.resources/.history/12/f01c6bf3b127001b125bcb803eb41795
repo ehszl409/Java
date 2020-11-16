@@ -1,0 +1,12 @@
+package star1;
+
+class Zealot {
+	String name;
+	int hp;
+	int attack;
+	
+	public Zealot() {
+		
+	}
+
+}

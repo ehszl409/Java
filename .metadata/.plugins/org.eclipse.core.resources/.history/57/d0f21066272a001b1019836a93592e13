@@ -1,0 +1,11 @@
+package composite;
+
+public class LotteriaApp {
+
+	public static void main(String[] args) {
+		Burger b1 = new Burger();
+		Potato t1 = new Potato();
+		Coke c1 = new Coke();
+	}
+
+}

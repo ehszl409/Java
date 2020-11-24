@@ -1,0 +1,7 @@
+package login;
+
+interface OAuth {
+	public abstract String oauthId();
+	public abstract String oauthPasswoed();
+	public abstract String oauthNick();
+}

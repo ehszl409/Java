@@ -1,0 +1,19 @@
+package login;
+
+public class Naver implements OAuth {
+	private String provider;
+	private String id;
+	private String password;
+	private String nickName;
+	
+	public Naver() {
+		this("ssar@nate.com", "1234", "깨봉");
+	}
+	
+	
+
+	
+
+	
+	
+}

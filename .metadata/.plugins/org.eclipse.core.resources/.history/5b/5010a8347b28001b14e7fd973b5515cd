@@ -1,0 +1,24 @@
+package ch05;
+
+class Animal{
+	
+}
+
+class Dog{
+	void sound() {
+		System.out.println("멍멍");
+	}
+}
+
+class cat{
+	void sound() {
+		System.out.println("야옹");
+	}
+}
+
+public class Inherit03 {
+	static void start(Dog d) {
+		d.sound();
+	}
+
+}

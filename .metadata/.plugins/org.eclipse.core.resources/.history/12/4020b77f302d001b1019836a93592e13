@@ -1,0 +1,21 @@
+package review;
+
+class Samsung {
+	void change() {
+		System.out.println("채널 변경");
+	}
+}
+class LG {
+	void change() {
+		System.out.println("채널 변경");
+	}
+}
+
+public class Ex12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

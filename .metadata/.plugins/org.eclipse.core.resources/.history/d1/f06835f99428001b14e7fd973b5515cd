@@ -1,0 +1,7 @@
+package star1;
+
+interface StarUnit {
+	void attack();
+	void status();
+}
+

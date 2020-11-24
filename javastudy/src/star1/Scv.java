@@ -1,7 +1,7 @@
 package star1;
 
-class Scv {
-	private String name;
+class Scv extends StarUnit02{
+	private String id;
 	private int hp;
 	private int attack;
 	
@@ -9,18 +9,18 @@ class Scv {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Scv(String name, int hp, int attack) {
-		this.name = name;
+	public Scv(String id, int hp, int attack) {
+		this.id = id;
 		this.hp = hp;
 		this.attack = attack;
 	}
 
 	public String getName() {
-		return name;
+		return id;
 	}
 
 	public void setName(String name) {
-		this.name = name;
+		this.id = name;
 	}
 
 	public int getHp() {

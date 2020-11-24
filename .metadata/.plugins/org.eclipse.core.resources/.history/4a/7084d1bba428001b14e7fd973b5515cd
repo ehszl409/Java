@@ -1,0 +1,14 @@
+package login;
+
+public class Naver {
+	private String id;
+	private String password;
+	private String nickname;
+	
+	public Naver() {
+		this("ssar@nate.com", "1234", "깨봉");
+	}
+
+	
+	
+}

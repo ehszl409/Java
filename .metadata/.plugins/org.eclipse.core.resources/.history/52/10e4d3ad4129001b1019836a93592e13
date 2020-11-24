@@ -1,0 +1,16 @@
+package ex01;
+
+public class Ex05 {
+
+	public static void main(String[] args) {
+		String str[] = {"가위", "바위", "보"};
+		String user = "가위";
+		
+		int n = (int)(Math.random()*3);
+		if(str[n] == user) System.out.println("비겼습니다.");
+		
+
+
+	}
+
+}

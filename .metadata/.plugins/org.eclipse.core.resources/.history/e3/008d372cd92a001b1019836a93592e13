@@ -1,0 +1,10 @@
+package ch06;
+
+public class String01 {
+
+	public static void main(String[] args) {
+		String data = "id : 1,	name : 홍길";
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package ch05;
+
+class Knife{
+	
+}
+
+public class Adapter01 {
+	public static void main(String[] args) {
+		
+	}
+}

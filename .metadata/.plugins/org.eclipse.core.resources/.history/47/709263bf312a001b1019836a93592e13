@@ -1,0 +1,13 @@
+package ch05;
+
+// protected 는 같은 패키지 + 자식만 상
+public class FactoryApp {
+
+	public static void main(String[] args) {
+		Factory f1 = new BlueCloth();
+		f1.print(); // 동적 바인딩
+		f1.dry();
+
+	}
+
+}

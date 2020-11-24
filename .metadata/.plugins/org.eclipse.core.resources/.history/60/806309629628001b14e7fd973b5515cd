@@ -1,0 +1,7 @@
+package star1;
+
+interface StarUnit {
+	void attack();
+	int status(String n, int h, int a);
+}
+

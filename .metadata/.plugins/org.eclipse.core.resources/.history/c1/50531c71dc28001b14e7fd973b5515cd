@@ -1,0 +1,17 @@
+package ex02;
+
+public class LoginApp {
+	
+	public static void userInfo(OAuth o) {
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

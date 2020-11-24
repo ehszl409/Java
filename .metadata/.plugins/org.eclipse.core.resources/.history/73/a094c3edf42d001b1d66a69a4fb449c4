@@ -1,0 +1,21 @@
+package ch10;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class Event02 extends JFrame {
+	private JLabel laTitle;
+	private JButton btn1, btn2, btn3;
+	
+	public Event02() {
+		setTitle("Event 02");
+		setSize(400, 500);
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

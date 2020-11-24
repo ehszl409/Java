@@ -1,0 +1,16 @@
+package ch09;
+
+import javax.swing.JFrame;
+
+public class Swing01 extends JFrame{
+	
+	public Swing01() {
+		setTitle("제목");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

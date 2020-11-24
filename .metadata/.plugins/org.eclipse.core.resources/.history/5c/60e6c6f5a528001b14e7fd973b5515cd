@@ -1,0 +1,27 @@
+package login;
+
+// 사용자가 로그인할 떄 -> 페이스북, 네이버
+public class LoginApp {
+	
+	static void userInfo(Facebook f) {
+		System.out.println("로그인한 사용자는....");
+		System.out.println(f.getEmail());
+		System.out.println(f.getPassword());
+		System.out.println(f.getUsername());
+	}
+	
+	static void userInfo(Naver n) {
+		System.out.println("로그인한 사용자는....");
+		System.out.println(n.getId());
+		System.out.println(n.getPassword());
+		System.out.println(n.getNickName());
+	}
+
+	public static void main(String[] args) {
+		Facebook f = new Facebook();
+		userInfo(f);
+		
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package star1;
+
+interface StarUnit {
+	
+	void attack();
+	String getName();
+	int getHp();
+	int getAttack();
+	
+}
+

@@ -1,0 +1,21 @@
+package ch05;
+
+// 1. 재산을 물려 받는 의미 (사용하지 않는다) 
+// (콤포지션을 해야함)
+
+class Father{
+	int money = 10000;
+}
+
+class Son extends Father{
+	
+}
+
+public class Inherit01 {
+	public static void main(String[] args) {
+		// new는 한 번만 사용하지만 Heap영역은
+		// Son과 Father 두개를 만든다.
+		Father s = new Son(); 
+		
+	}
+}

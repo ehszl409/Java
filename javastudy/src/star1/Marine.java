@@ -1,6 +1,6 @@
 package star1;
 
-class Marine {
+class Marine implements StarUnit {
 	// field, property 는 private로 만들어 마법을 제한 한다.
 	private String name;
 	private int hp;
@@ -16,5 +16,36 @@ class Marine {
 	public Marine() {
 
 	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getHp() {
+		return hp;
+	}
+
+	public void setHp(int hp) {
+		this.hp = hp;
+	}
+
+	public int getAttack() {
+		return attack;
+	}
+
+	public void setAttack(int attack) {
+		this.attack = attack;
+	}
+	
+	@Override
+	public void attack() {
+		// TODO Auto-generated method stub
+		
+	}
+	
 
 }

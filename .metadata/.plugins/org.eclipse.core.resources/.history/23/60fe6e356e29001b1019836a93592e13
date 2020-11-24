@@ -1,0 +1,15 @@
+package ch03;
+
+public class For03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated meSthod stub
+		System.out.println("*");
+		System.out.println("**");
+		System.out.println("***");
+		System.out.println("****");
+		System.out.println("*****");
+
+	}
+
+}

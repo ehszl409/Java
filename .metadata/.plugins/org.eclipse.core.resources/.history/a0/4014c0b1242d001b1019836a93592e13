@@ -1,0 +1,8 @@
+package review;
+
+public class Ex05 {
+	public static void main(String[] args) {
+		// 배열 : 연속된 데이터공간을 확보해주기 때문에 엑세스가 빠르다.
+		// 단점 : 배열은 데이터 추가, 삭제가 안됨.
+	}
+}

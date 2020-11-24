@@ -1,0 +1,33 @@
+package review;
+
+// Tv4대, 삼성, 엘지, 대우, 일렉트론
+
+interface Remocon{
+	void change();
+}
+
+class SamsungRemocon implements Remocon{
+	@Override
+	public void change() {
+		// TODO Auto-generated method stub
+		System.out.println("채널 변경");
+	}
+}
+
+class LGRemocon implements Remocon {
+	@Override
+	public void change() {
+		// TODO Auto-generated method stub
+		System.out.println("채널 변경");
+	}
+}
+
+public class Ex12 {
+
+	public static void main(String[] args) {
+		Remocon r = new LGRemocon();
+		r.change();
+
+	}
+
+}

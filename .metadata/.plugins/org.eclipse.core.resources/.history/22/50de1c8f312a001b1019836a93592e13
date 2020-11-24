@@ -1,0 +1,8 @@
+package ch05;
+
+public abstract class Factory {
+	abstract void print();
+	void dry() {
+		System.out.println("dry complete");
+	}
+}

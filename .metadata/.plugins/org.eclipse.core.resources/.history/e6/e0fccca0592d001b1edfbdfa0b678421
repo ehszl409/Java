@@ -1,0 +1,36 @@
+package ch09;
+
+import java.awt.BorderLayout;
+import java.awt.Container;
+import java.awt.Panel;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class Ex04 extends JFrame {
+	
+	public Ex04() {
+		setTitle("Ex04");
+		setSize(300, 300);
+		setVisible(true);
+		
+		Container c = getContentPane();
+		Panel p1 = new Panel();
+		JButton jb1 = new JButton("Open");
+		JButton jb2 = new JButton("Read");
+		JButton jb3 = new JButton("Close");
+		
+		c.add(p1, BorderLayout.NORTH);
+		p1.add(jb1);
+		p1.add(jb2);
+		p1.add(jb3);
+		
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

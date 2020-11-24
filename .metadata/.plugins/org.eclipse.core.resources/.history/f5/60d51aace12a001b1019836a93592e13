@@ -1,0 +1,11 @@
+package ch06;
+
+public class StringEx02 {
+
+	public static void main(String[] args) {
+		String s = "AbCDEFg";
+		System.out.println(s.toLowerCase());
+
+	}
+
+}

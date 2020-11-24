@@ -1,0 +1,38 @@
+package ch09;
+
+import java.awt.BorderLayout;
+import java.awt.Container;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+// Swing은 내부적으로 while이 돌고 있음. 
+public class Swing01 extends JFrame{
+	
+	public Swing01() {
+		setTitle("제목");
+		setSize(300, 500);
+		setVisible(true); // 화면에 표시하는 함수.
+		
+		Container c = getContentPane();
+		JButton btn1 = new JButton("button1");
+		JButton btn2 = new JButton("button2");
+		JButton btn3 = new JButton("button3");
+		JButton btn4 = new JButton("button4");
+		JButton btn5 = new JButton("button5");
+		
+		
+		c.add(btn1, BorderLayout.WEST);
+		c.add(btn2, BorderLayout.EAST);
+		c.add(btn3, BorderLayout.NORTH);
+		c.add(btn4, BorderLayout.CENTER);
+		c.add(btn5, BorderLayout.SOUTH);
+		
+	}
+
+	public static void main(String[] args) {
+		new Swing01();
+
+	}
+
+}

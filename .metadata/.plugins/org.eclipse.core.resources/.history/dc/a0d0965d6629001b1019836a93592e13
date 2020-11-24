@@ -1,0 +1,20 @@
+package ex01;
+
+import java.util.Scanner;
+
+public class MoneyAppSolution {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("금액을 입력하세요");
+		final int money = sc.nextInt();
+		int rMoney = money;
+		int rCount = 0;
+		
+		rCount = rMoney / 50000;
+		rMoney = rMoney % 50000;
+		System.out.println("5만원권 : " + rCount);
+	}
+
+}

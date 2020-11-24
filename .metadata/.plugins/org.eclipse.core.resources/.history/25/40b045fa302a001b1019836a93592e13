@@ -1,0 +1,10 @@
+package composite;
+
+public class ShrimpBurgerSet  extends BurgerSet{
+	public ShrimpBurgerSet() {
+		//this()
+	}
+	public ShrimpBurgerSet(Burger burger, Potato potato, Coke coke) {
+		super(burger, potato, coke);
+	}
+}

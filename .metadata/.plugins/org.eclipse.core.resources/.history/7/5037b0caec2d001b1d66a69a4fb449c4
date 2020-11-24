@@ -1,0 +1,37 @@
+package ch10;
+
+import java.awt.BorderLayout;
+import java.awt.Container;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class Event01 extends JFrame {
+	private JButton btn1;
+	private JLabel la1;
+	
+	
+	public Event01() {
+		setTitle("Event01");
+		setSize(300, 400);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		btn1 = new JButton("클릭하세요.");
+		la1 = new JLabel("클릭안됨");
+		la1.setSize(100, 100);
+		// JFrame이 기본적으로 가지고 있는 JPanel에 접근하기 위해.
+		Container c = getContentPane();
+		c.add(la1, BorderLayout.CENTER);
+		c.add(btn1, BorderLayout.SOUTH);
+		
+		
+		setVisible(true); // 항상 생성자 가장 마지막에 있어야한다.
+	}
+
+	public static void main(String[] args) {
+		new Event01();
+
+	}
+
+}

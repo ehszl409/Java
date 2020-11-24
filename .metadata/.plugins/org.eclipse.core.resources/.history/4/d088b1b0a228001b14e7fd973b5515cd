@@ -1,0 +1,17 @@
+package star1;
+
+interface StarUnit {
+	
+	
+	
+
+	void attack();
+	int getName();
+	int setHp();
+	int getHp();
+	int getAttack();
+	
+	
+	
+}
+

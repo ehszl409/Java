@@ -1,0 +1,33 @@
+package ch09;
+
+import javax.swing.JPanel;
+import java.awt.GridLayout;
+import javax.swing.JButton;
+import java.awt.GridBagLayout;
+import java.awt.GridBagConstraints;
+import java.awt.Insets;
+
+public class JpanelEx01 extends JPanel {
+
+
+	public JpanelEx01() {
+		setLayout(new GridLayout(2, 3, 0, 0));
+		
+		JButton btnNewButton = new JButton("New button");
+		add(btnNewButton);
+		
+		JButton btnNewButton_2 = new JButton("New button");
+		add(btnNewButton_2);
+		
+		JButton btnNewButton_4 = new JButton("New button");
+		add(btnNewButton_4);
+		
+		JButton btnNewButton_3 = new JButton("New button");
+		add(btnNewButton_3);
+		
+		JButton btnNewButton_1 = new JButton("New button");
+		add(btnNewButton_1);
+
+	}
+
+}

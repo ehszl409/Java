@@ -1,7 +1,0 @@
-package login;
-
-public class OAuth {
-	public abstract String oauthId();
-	public abstract String oauthIdPasswoed();
-	public abstract String oauthIdNickName();
-}

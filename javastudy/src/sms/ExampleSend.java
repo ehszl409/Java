@@ -19,7 +19,7 @@ public class ExampleSend {
 	    // 4 params(to, from, type, text) are mandatory. must be filled
 	    HashMap<String, String> params = new HashMap<String, String>();
 	    params.put("to", to);
-	    params.put("from", "0103011245922");
+	    params.put("from", "01030112459");
 	    params.put("type", "SMS");
 	    params.put("text", text);
 	    params.put("app_version", "test app 1.2"); // application name and version
@@ -38,6 +38,6 @@ public class ExampleSend {
 	}
 	
   public static void main(String[] args) {
-    SMS("01086279652", "IPHONE12 unboxing at tonight Okay?");
+    //SMS("01086279652", "IPHONE12 unboxing at tonight Okay?");
   }
 }

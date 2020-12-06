@@ -11,6 +11,8 @@ import javax.swing.JLabel;
 import javax.swing.JTextField;
 
 public class Test01 extends JFrame {
+	private Test01 test01 = this;
+	private static final String TAG = "Test01 : ";
 	private Container c;
 	private GridLayout grid;
 	private JLabel numberJl, msgJl;
@@ -19,23 +21,19 @@ public class Test01 extends JFrame {
 
 	public Test01() {
 		// 1. 필요한 오브젝트를 메모리에 로딩
-		initObject();
+		init();
 
 		// 2. 세팅
-		initSetting();
+		setting();
 
 		// 3. 배치
-		initBatch();
+		batch();
+		
+		//4. 리스너
+		listener();
 	}
 
-	private void initBatch() {
-		c.add(numberJl);
-		c.add(numberTf);		
-		c.add(msgJl);
-		c.add(msgTf);
-		c.add(sendBtn);
-		c.add(resetBtn);
-		
+	private void listener() {
 		sendBtn.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
@@ -59,7 +57,19 @@ public class Test01 extends JFrame {
 		
 	}
 
-	private void initSetting() {
+	private void batch() {
+		c.add(numberJl);
+		c.add(numberTf);		
+		c.add(msgJl);
+		c.add(msgTf);
+		c.add(sendBtn);
+		c.add(resetBtn);
+		
+		
+		
+	}
+
+	private void setting() {
 		setTitle("TEST");
 		setSize(400, 200);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -68,7 +78,7 @@ public class Test01 extends JFrame {
 		c.setLayout(grid);
 	}
 
-	private void initObject() {
+	private void init() {
 		grid = new GridLayout(3, 2);
 		
 		numberJl = new JLabel("전화번호");

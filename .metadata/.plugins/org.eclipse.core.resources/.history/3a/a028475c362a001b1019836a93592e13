@@ -1,7 +1,0 @@
-package ch05;
-
-public class Ferari extends Car{
-	private String name;
-	private Engine5000 engine5000;
-	
-}
